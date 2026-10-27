@@ -1,0 +1,9 @@
+interface:
+  display_name: "Visible File Editing"
+  short_description: "Edit files with visible changes"
+  default_prompt: "Edit this file and make every change easy for a human to review."
+policy:
+  products:
+    - CHAT
+    - CODEX
+  allow_implicit_invocation: true

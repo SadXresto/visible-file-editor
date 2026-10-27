@@ -1,0 +1,41 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "garenainternationalserverindia@gmail.com",
+    "name": "GARENA INTERNATIONAL Server INDIA"
+  },
+  "description": "Edit documents and project files while making every change understandable and reviewable by people.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "File handling",
+          "Interactive"
+        ],
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Edit this file and make every change easy for a human to review.",
+          "Revise this document while preserving its layout and provide a change report.",
+          "Compare these original and edited files and show exactly what changed."
+        ],
+        "developerName": "GARENA INTERNATIONAL Server INDIA",
+        "displayName": "Visible File Editor",
+        "longDescription": "A workflow skill for ChatGPT and Codex to edit files carefully, preserve layout where possible, and deliver reviewable outputs with change summaries, diffs, redlines, or comments. It explains format-specific limits instead of pretending every file format supports tracked changes.",
+        "shortDescription": "Reviewable file edits"
+      }
+    }
+  },
+  "keywords": [
+    "documents",
+    "docx",
+    "pdf",
+    "spreadsheets",
+    "presentations",
+    "diff",
+    "redline",
+    "codex",
+    "editing"
+  ],
+  "name": "visible-file-editor",
+  "version": "0.1.0"
+}
